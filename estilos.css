@@ -174,9 +174,7 @@
     }
 }
 @media screen and (max-width: 520px){
-    .banner__titulo p{
-        font-size: 12px;
-    }
+    
 }
 @media screen and (max-width: 490px){
     .contenedor__1 h1{
@@ -194,7 +192,18 @@
 }
 @media screen and (max-width: 290px){
     .contactos__titulo{
-        
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    .banner__titulo p{
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+}
+@media screen and (max-width: 180px){
+    form textarea{
+        max-width: 76px;
+        min-width: 76px;
     }
 }
 
